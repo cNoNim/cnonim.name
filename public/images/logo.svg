@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<svg xmlns="http://www.w3.org/2000/svg"
+     height="100%"
+     width="100%"
+     viewBox="0 0 64 64"
+     version="1.1">
+  <title>cNoNim Logo</title>
+  <desc>Герб cNoNim'а</desc>
+  <g id="logo" transform="translate(32,32)" stroke-width="4">
+    <path   fill="white"   stroke="#d52b00" d="M -28,-28 28,-28 24,20 0,28 -24,20 z"/>
+    <path   fill="#d52b00" stroke="none"    d="M 0,0 0,-28 28,-28 26,0 0,0 0,28 -24,20 -26,0 z"/>
+    <path   fill="#0038a5" stroke="#0038a5" d="M 0,0 -7,-28 7,-28 0,0 26.25,-7 25.0825,7 0,0 7,25.666 0,28 -7,25.666 0,0 -25.0825,7 -26.25,-7 z"/>
+    <circle fill="none"    stroke="#d52b00" cx="0" cy="0" r="16"/>
+    <circle fill="white"   stroke="#0038a5" cx="0" cy="0" r="12"/>
+  </g>
+</svg>

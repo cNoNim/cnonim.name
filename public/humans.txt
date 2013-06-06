@@ -1,0 +1,9 @@
+/* I AM */
+Oleg 'cNoNim' Ageyev
+Site: cnonim.name
+E-mail: my@cnonim.name
+Location: Voronezh, Russia
+
+/* SITE */
+Standards: HTML5, SVG, JavaScript
+Software: vim, inkscape, gimp

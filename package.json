@@ -1,0 +1,29 @@
+{
+  "name": "cnonim.name",
+  "version": "0.0.1",
+  "private": true,
+  "description": "cNoNim's Web Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cNoNim/cnonim.name.git"
+  },
+  "keywords": [
+    "cnonim"
+  ],
+  "author": "Oleg 'cNoNim' Ageev",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/cNoNim/cnonim.name/issues"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "ejs-locals": "*",
+    "less-middleware": "*",
+    "redis": "*"
+  }
+}

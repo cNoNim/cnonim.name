@@ -1,0 +1,82 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 100%;
+}
+
+@step: 4em;
+
+.logo(@url) {
+  float: left;
+  height: @step;
+  width: @step;
+  background: url(@url);
+}
+
+.bar {
+  position: fixed;
+  width: 100%;
+  line-height: @step;
+}
+
+body {
+  background: #536ea5;
+}
+
+#header {
+  top: 0;
+  .bar;
+  background: #ffffff;
+
+  #watermark {
+    .logo("/images/logo.svg");
+    opacity: .3;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  nav {
+    float: right;
+  }
+}
+
+#main {
+  clear: both;
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  display: table;
+
+  article {
+    display: table-cell;
+    padding: @step 0;
+  }
+}
+
+#footer {
+  bottom: 0;
+  .bar;
+  color: #0038a5;
+  background: #d5806d;
+
+  #logos {
+    float: right;
+    #html5 { .logo("/images/HTML5_Badge.svg");
+    }
+    #svg { .logo("/images/svg-logo.svg");
+    }
+    #humanstxt { .logo("/images/humanstxt-logo.svg");
+    }
+  }
+}
+
+/* vim:set ft=css fenc=utf-8 tw=120 sw=2 sts=2 et sm ai nu: */

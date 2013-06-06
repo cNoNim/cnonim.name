@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title><%= title %></title>
+
+  <% if (typeof description !== 'undefined') { %>
+  <meta name="description" content="<%= description %>">
+  <% } %>
+  <% if (typeof keywords !== 'undefined') { %>
+  <meta name="keywords" content="<%=: keywords | join %>">
+  <% } %>
+  <meta name="robots" content="noodp">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+
+  <meta http-equiv="X-DNS-Prefetch-Control" content="on">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+
+  <link rel="dns_prefetch" href="//ajax.googleapis.com">
+  <link rel="dns_prefetch" href="//fonts.googleapis.com">
+
+  <link rel="author" href="/humans.txt">
+  <link rel="shortcut icon" href="/images/favicon_32.ico">
+  <link rel="icon" type="image/png" href="/images/favicon_32.png">
+
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <%- stylesheets %>
+  <%- scripts %>
+</head>
+<body>
+<header id="header">
+  <a id="watermark" href="/"></a>
+
+  <h1><%= title %></h1>
+  <nav></nav>
+</header>
+<section id="main">
+  <article><%- body -%></article>
+</section>
+<footer id="footer">
+  <span id="copy">&copy; 2013 Олег <q>cNoNim</q> Агеев</span>
+  <nav id="logos">
+    <a id="html5" href="http://www.w3.org/html/logo/"></a>
+    <a id="svg" href="http://www.w3.org/2009/08/svg-logos.html"></a>
+    <a id="humanstxt" href="/humans.txt"></a>
+  </nav>
+</footer>
+</body>
+</html>
+<!-- vim:set ft=html fenc=utf-8 tw=120 sw=2 sts=2 et sm ai nu: -->

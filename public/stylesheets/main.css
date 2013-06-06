@@ -1,0 +1,97 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 100%;
+}
+
+.bar {
+  position: fixed;
+  width: 100%;
+  line-height: 4em;
+}
+
+body {
+  background: #536ea5;
+}
+
+#header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  line-height: 4em;
+  background: #ffffff;
+}
+
+#header #watermark {
+  float: left;
+  height: 4em;
+  width: 4em;
+  background: url("/images/logo.svg");
+  opacity: .3;
+}
+
+#header #watermark:hover {
+  opacity: 1;
+}
+
+#header nav {
+  float: right;
+}
+
+#main {
+  clear: both;
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  display: table;
+}
+
+#main article {
+  display: table-cell;
+  padding: 4em 0;
+}
+
+#footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  line-height: 4em;
+  color: #0038a5;
+  background: #d5806d;
+}
+
+#footer #logos {
+  float: right;
+}
+
+#footer #logos #html5 {
+  float: left;
+  height: 4em;
+  width: 4em;
+  background: url("/images/HTML5_Badge.svg");
+}
+
+#footer #logos #svg {
+  float: left;
+  height: 4em;
+  width: 4em;
+  background: url("/images/svg-logo.svg");
+}
+
+#footer #logos #humanstxt {
+  float: left;
+  height: 4em;
+  width: 4em;
+  background: url("/images/humanstxt-logo.svg");
+}
+
+/* vim:set ft=css fenc=utf-8 tw=120 sw=2 sts=2 et sm ai nu: */
